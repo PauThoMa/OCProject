@@ -1,0 +1,246 @@
+
+html body{
+    display: flex;
+    width: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+/** en premier, l'aside au complet **/
+
+#container1{
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 30%;
+    width: auto;
+}
+
+.item{
+    max-width: 100%;
+    margin: auto;
+}
+
+aside{
+    
+    background-color: #f6c70a;
+    display: flex;
+}
+aside header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+    width: auto;
+}
+img{
+    width: 200px;
+    clip-path: circle(50% 50%);
+    border-radius: 50%;
+    border :3px solid #b99710;
+    margin: 7%;
+    
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+#propos{
+    flex:1;
+}
+aside div{
+    display: flex;
+    padding: 10%;
+    justify-content: space-around;
+}
+aside h2{
+    background-color: #43413d ;
+    color: #f6c70a;
+    font-weight: 700;
+    text-align: center;
+    width: auto;
+}
+
+aside p{
+    color: #43413d;
+    text-align: justify;
+    overflow-wrap: break-word;
+   hyphens: auto;
+}
+
+
+aside i{
+    color: #43413d;
+    border: 2px solid #43413d ;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 2em;
+}
+/** puis le main content **/
+#container2{
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 70%;
+    width: auto;
+}
+header{
+    width: auto;
+}
+h1{
+    color: #f6c70a;
+    margin-bottom: -10px;
+}
+
+h1 span{
+    font-weight: lighter;
+    color: black;
+    
+}
+
+header h2{
+    font-weight: 600;
+    color: #43413d ;
+    border: none !important;
+    margin-bottom: -7px;
+   
+     
+}
+.trait{
+    width: 7%;
+    border-top:1px solid #f6c70a;
+    height: 60px;
+}
+
+main i{
+    color: #f6c70a;
+    margin: auto;
+}
+
+h2 span{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+main{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+main h1{
+    font-size: 3em;
+}
+
+main h2{
+    border-bottom: 1px solid #f6c70a;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+
+main p{
+    overflow-wrap: break-word;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    width: auto;   
+}
+
+.ligne{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: stretch;
+    width: 100%;   
+}
+
+.gauche{
+    display: flex;
+    flex-direction: row ;
+    width: 30%;
+    justify-content: stretch;
+    padding-top: 5px;   
+}
+
+.gauche p{
+    font-weight: 600;
+}
+
+.fas-div{
+    
+    margin-top: 5px;
+    padding: 20px;
+    width: 10px;  
+}
+
+.an{
+    word-wrap: break-word;
+}
+
+
+.details{
+    width: 70%;
+    padding-left: 15px;
+    padding-top: 5px;   
+}
+
+
+p{
+    color:  #43413d;
+
+}
+
+h3, h4{
+    color:  #43413d;
+}
+
+ .details h4{
+    font-weight: lighter;
+}
+
+#recommandations{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around; 
+}
+
+.fa-circle{
+    font-size: xx-small;
+    margin: auto;   
+}
+
+.fa-dot-circle{
+    font-size: small;
+    margin: auto;
+}
+
+/** la partie responsive**/
+
+@media screen and (max-width: 1280px){
+
+    body{
+        flex-direction: column-reverse;
+    }
+    #container1{
+        max-width: 100%;
+    }
+    aside {
+        border-top: 5px dotted #b99710;
+    }
+    #container2{
+        max-width: 100%;
+    }
+    .trait{
+        width:15%;
+    }
+    
+
+}
+
+
