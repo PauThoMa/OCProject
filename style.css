@@ -242,12 +242,20 @@ h3, h4{
     
 
 }
-@media screen and (max-width:300px){
-    
+@media screen and (max-width: 480px){
+
     .ligne{
-        flex-direction:column;
+        flex-direction:column !important;
     }
-  
+    .gauche{
+        width: auto;
+
+    }
+    .details{
+        width: auto;
+    }
+
+    
 }
 
 
