@@ -242,5 +242,12 @@ h3, h4{
     
 
 }
+@media screen and (max-width:300px){
+    
+    .ligne{
+        flex-direction:column;
+    }
+  
+}
 
 
