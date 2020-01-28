@@ -3,6 +3,7 @@ html body{
     display: flex;
     width: auto;
     font-family: 'Quicksand', sans-serif;
+    margin:0;
 }
 /** en premier, l'aside au complet **/
 
